@@ -20,7 +20,7 @@ function Featured() {
                         />
                         <div className="featuredTitles">
                             <h1>Berlin</h1>
-                            <h2>{data[0]} properties</h2>
+                            <h2>{data} properties</h2>
                         </div>
                     </div>
                     <div className="featuredItem">
