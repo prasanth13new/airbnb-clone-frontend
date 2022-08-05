@@ -20,7 +20,7 @@ function Featured() {
                         />
                         <div className="featuredTitles">
                             <h1>Berlin</h1>
-                            <h2>{data} properties</h2>
+                            <h2>{data[0]} properties</h2>
                         </div>
                     </div>
                     <div className="featuredItem">
@@ -31,7 +31,7 @@ function Featured() {
                         />
                         <div className="featuredTitles">
                             <h1>Madrid</h1>
-                            <h2>{data} properties</h2>
+                            <h2>{data[1]} properties</h2>
                         </div>
                     </div><div className="featuredItem">
                         <img
@@ -41,7 +41,7 @@ function Featured() {
                         />
                         <div className="featuredTitles">
                             <h1>London</h1>
-                            <h2>{data} properties</h2>
+                            <h2>{data[2]} properties</h2>
                         </div>
                     </div>
                 </>)}

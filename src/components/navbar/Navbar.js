@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='navContainer'>
-                <Link to='/'>
+                <Link to='/' style={{color:"inherit", textDecoration:"none"}}>
                 <span className='logo'>Airbnb</span>
                 </Link>
                 <div className='navItem'>
