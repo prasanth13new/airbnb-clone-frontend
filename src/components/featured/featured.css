@@ -27,3 +27,7 @@
     bottom: 20px;
     left: 20px;
   }
+
+  .featuredTitles > h1{
+    text-transform: capitalize;
+  }
