@@ -19,6 +19,7 @@
     flex-direction: column;
     gap: 10px;
     flex: 2;
+    text-transform: capitalize;
   }
   
   .siTitle {
